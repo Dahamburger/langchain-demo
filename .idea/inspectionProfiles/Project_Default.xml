@@ -1,0 +1,33 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="fastapi" />
+          <option value="uvicorn" />
+          <option value="sqlalchemy" />
+          <option value="alembic" />
+          <option value="pymysql" />
+          <option value="cryptography" />
+          <option value="python-jose" />
+          <option value="passlib" />
+          <option value="bcrypt" />
+          <option value="python-multipart" />
+          <option value="redis" />
+          <option value="websockets" />
+          <option value="pydantic" />
+          <option value="pydantic-settings" />
+          <option value="email-validator" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="Embedding与向量数据库.chromadb.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
