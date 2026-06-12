@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 from langchain.chat_models import init_chat_model
 
-load_dotenv()
+load_dotenv(encoding="utf-8")
 QWEN_API_KEY = os.getenv("QWEN_API_KEY")
 QWEN_BASE_URL = os.getenv("QWEN_BASE_URL")
 # print(QWEN_API_KEY, QWEN_BASE_URL)
