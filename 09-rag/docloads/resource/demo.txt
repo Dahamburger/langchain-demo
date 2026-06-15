@@ -1,0 +1,2 @@
+Hello RAG demo file
+This is a txt file sample.
